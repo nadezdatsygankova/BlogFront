@@ -49,28 +49,7 @@ export const Home = () => {
             ),
           )}
         </Grid>
-        {/* <Grid xs={4} item>
-          <TagsBlock items={tags.items} isLoading={isTagsLoading} /> */}
-          {/* <CommentsBlock
-            items={[
-              {
-                user: {
-                  fullName: 'Nadia Tsy',
-                  avatarUrl: 'https://mui.com/static/images/avatar/1.jpg',
-                },
-                text: 'Test',
-              },
-              {
-                user: {
-                  fullName: 'Nadia BB',
-                  avatarUrl: 'https://mui.com/static/images/avatar/2.jpg',
-                },
-                text: 'When displaying three lines or more, the avatar is not aligned at the top. You should set the prop to align the avatar at the top',
-              },
-            ]}
-            isLoading={false}
-          /> */}
-        {/* </Grid> */}
+       
       </Grid>
     </>
   );
