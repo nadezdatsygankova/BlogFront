@@ -123,13 +123,14 @@ export const AddPost = () => {
       )}
       <br />
       <br />
+      
       <TextField
-        value={title}
-        onChange={(e) => setTitle('title', e.target.value)}
-        classes={{ root: styles.title }}
-        variant="standard"
-        placeholder="Blog's title..."
-        fullWidth
+      classes={{ root: styles.title }}
+      variant="standard"
+      placeholder="Title..."
+      value={title}
+      onChange={(e) => setTitle(e.target.value)}
+      fullWidth
       />
       <TextField
         value={tags}
