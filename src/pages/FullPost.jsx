@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Post } from '../components/Post';
 // import { Index } from '../components/AddComment';
-import { CommentsBlock } from '../components/CommentsBlock';
+// import { CommentsBlock } from '../components/CommentsBlock';
 import axios from '../axios';
 import ReactMarkdown from 'react-markdown'
 
@@ -41,7 +41,7 @@ export const FullPost = () => {
         isFullPost>
         <ReactMarkdown children={data.text} />,
       </Post>
-      <CommentsBlock
+      {/* <CommentsBlock
         items={[
           {
             user: {
@@ -59,8 +59,8 @@ export const FullPost = () => {
           },
         ]}
         isLoading={false}>
-        {/* <Index /> */}
-      </CommentsBlock>
+        <Index />
+      </CommentsBlock> */}
     </>
   );
 };
